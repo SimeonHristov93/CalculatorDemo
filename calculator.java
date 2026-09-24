@@ -1,11 +1,11 @@
-bplist00�XUTI-Data�_public.utf8-plain-text_<public class Calculator {
+public class Calculator {
 
     public double add(double a, double b) {
-        return a - b;
+        return a + b;
     }
 
     public double subtract(double a, double b) {
-        return a + b;
+        return a - b;
     }
 
     public double multiply(double a, double b) {
@@ -19,7 +19,7 @@ bplist00�XUTI-Data�_public.utf8-plain-text_<public class Calculator 
 
         return a / b;
     }
-
+ 
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
 
