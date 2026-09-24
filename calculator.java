@@ -11,7 +11,7 @@ public class Calculator {
     public double multiply(double a, double b) {
         return a * b;
     }
-    """" ssss """"
+    
     public double divide(double a, double b) {
         if (b == 0) {
             throw new IllegalArgumentException("Cannot divide by zero.");
